@@ -1,0 +1,49 @@
+$date
+        2025-Feb-20 14:10:54
+$end
+$version
+        Vivado v2022.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 5 " top_i/DataPath_xN_0/U0/coreArea_1_core/stateGen_4/status_layerCnt [4:0] $end
+$var reg 10 ' top_i/DataPath_xN_0/U0/coreArea_1_core/stateGen_4/status_token [9:0] $end
+$var reg 6 1 top_i/DataPath_xN_0/U0/coreArea_1_core/axi/int_bus_payload_tuser [5:0] $end
+$var reg 12 7 top_i/DataPath_xN_0/U0/coreArea_1_core/ln/inCnt [11:0] $end
+$var reg 2 C top_i/DataPath_xN_0/U0/coreArea_1_core/node/node/io_output_payload_tdest [1:0] $end
+$var reg 1 E top_i/DataPath_xN_0/U0/coreArea_1_core/ln/inputTagMap_valid $end
+$var reg 1 F top_i/DataPath_xN_0/U0/coreArea_1_core/axi/int_bus_payload_last $end
+$var reg 1 G top_i/DataPath_xN_0/U0/coreArea_1_core/axi/int_bus_ready $end
+$var reg 1 H top_i/DataPath_xN_0/U0/coreArea_1_core/axi/int_bus_valid $end
+$var reg 1 I top_i/DataPath_xN_0/U0/coreArea_1_core/node/node/io_output_valid $end
+$var reg 1 J top_i/DataPath_xN_0/U0/coreArea_1_core/busIn/io_wkv_ready $end
+$var reg 1 K top_i/DataPath_xN_0/U0/coreArea_1_core/busIn/io_wkv_valid $end
+$var reg 1 L top_i/DataPath_xN_0/U0/coreArea_1_core/engine/scalarOut_tvalid $end
+$var reg 1 M _TRIGGER $end
+$var reg 1 N _WINDOW $end
+$var reg 1 O _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11111 "
+b1110 '
+b100 1
+b0 7
+b0 C
+0E
+0F
+0G
+1H
+0I
+0J
+1K
+0L
+0M
+1N
+0O
+$end
+#1000
+1M

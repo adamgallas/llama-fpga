@@ -1,0 +1,53 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.89662",
+   "Default View_TopLeft":"-134,-340",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port ddr4_sdram -pg 1 -lvl 8 -x 2750 -y 620 -defaultsOSRD
+preplace port clk_300mhz -pg 1 -lvl 0 -x -10 -y 650 -defaultsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x -10 -y 630 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 5 -x 1760 -y 320 -defaultsOSRD
+preplace inst DataPath_xN_0 -pg 1 -lvl 3 -x 940 -y 350 -defaultsOSRD
+preplace inst ddr4_0 -pg 1 -lvl 7 -x 2550 -y 680 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 6 -x 2220 -y 490 -defaultsOSRD
+preplace inst rst_ddr4_0_266M -pg 1 -lvl 1 -x 210 -y 360 -defaultsOSRD
+preplace inst ps8_0_axi_periph -pg 1 -lvl 2 -x 590 -y 280 -defaultsOSRD
+preplace inst axi_smc_1 -pg 1 -lvl 4 -x 1290 -y 80 -defaultsOSRD
+preplace inst axi_smc_2 -pg 1 -lvl 4 -x 1290 -y 240 -defaultsOSRD
+preplace inst axi_smc_3 -pg 1 -lvl 4 -x 1290 -y 380 -defaultsOSRD
+preplace inst axi_smc_4 -pg 1 -lvl 4 -x 1290 -y 540 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 2 -x 590 -y 510 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 1 -x 210 -y 730 -defaultsOSRD
+preplace netloc ddr4_0_c0_ddr4_ui_clk 1 0 8 30 260 390 400 770 240 1130 620 1450 500 2070 580 2360J 560 2730
+preplace netloc ddr4_0_c0_ddr4_ui_clk_sync_rst 1 0 8 30 800 NJ 800 NJ 800 NJ 800 NJ 800 NJ 800 NJ 800 2730
+preplace netloc rst_ddr4_0_266M_peripheral_aresetn 1 1 6 400 150 NJ 150 1140 670 NJ 670 2080 690 NJ
+preplace netloc reset_1 1 0 7 10J 660 NJ 660 NJ 660 NJ 660 NJ 660 NJ 660 2360J
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 2 1 780 370n
+preplace netloc util_vector_logic_0_Res 1 1 1 400 490n
+preplace netloc DataPath_xN_0_softReset 1 0 4 20 140 NJ 140 NJ 140 1100
+preplace netloc ddr4_0_C0_DDR4 1 7 1 N 620
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 5 1 2080 300n
+preplace netloc axi_smc_M00_AXI 1 6 1 2370 490n
+preplace netloc clk_300mhz_1 1 0 7 NJ 650 NJ 650 NJ 650 NJ 650 NJ 650 NJ 650 NJ
+preplace netloc DataPath_xN_0_M01_AXI 1 3 3 1120 460 1430J 480 NJ
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM1_FPD 1 1 5 410 160 NJ 160 NJ 160 NJ 160 2070
+preplace netloc ps8_0_axi_periph_M00_AXI 1 2 1 780 280n
+preplace netloc DataPath_xN_0_m_axi_hp_0_0 1 3 1 1110 60n
+preplace netloc axi_smc_1_M00_AXI 1 4 1 1430 80n
+preplace netloc DataPath_xN_0_m_axi_hp_0_1 1 3 1 1150 220n
+preplace netloc axi_smc_2_M00_AXI 1 4 1 N 240
+preplace netloc DataPath_xN_0_m_axi_hp_0_2 1 3 1 N 360
+preplace netloc axi_smc_3_M00_AXI 1 4 1 1430 260n
+preplace netloc DataPath_xN_0_m_axi_hp_0_3 1 3 1 1110 380n
+preplace netloc axi_smc_4_M00_AXI 1 4 1 1440 280n
+levelinfo -pg 1 -10 210 590 940 1290 1760 2220 2550 2750
+pagesize -pg 1 -db -bbox -sgen -150 0 2890 810
+"
+}
+{
+   "da_axi4_cnt":"7",
+   "da_board_cnt":"2",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}

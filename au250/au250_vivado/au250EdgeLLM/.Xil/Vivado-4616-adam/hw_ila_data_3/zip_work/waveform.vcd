@@ -1,0 +1,37 @@
+$date
+        2024-Nov-05 15:42:11
+$end
+$version
+        Vivado v2022.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 2 " top_i/DataPath_xN_0/U0/coreArea_3_core/node/node/io_from_payload_tdest [1:0] $end
+$var reg 2 $ top_i/DataPath_xN_0/U0/coreArea_3_core/node/node/io_to_payload_tdest [1:0] $end
+$var reg 1 & top_i/DataPath_xN_0/U0/coreArea_3_core/node/node/io_from_payload_last $end
+$var reg 1 ' top_i/DataPath_xN_0/U0/coreArea_3_core/node/node/io_from_valid $end
+$var reg 1 ( top_i/DataPath_xN_0/U0/coreArea_3_core/node/node/io_input_valid $end
+$var reg 1 ) top_i/DataPath_xN_0/U0/coreArea_3_core/node/node/io_output_valid $end
+$var reg 1 * top_i/DataPath_xN_0/U0/coreArea_3_core/node/node/io_to_valid $end
+$var reg 1 + _TRIGGER $end
+$var reg 1 , _WINDOW $end
+$var reg 1 - _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 "
+b11 $
+1&
+0'
+0(
+0)
+0*
+0+
+1,
+0-
+$end
+#4096
+1+

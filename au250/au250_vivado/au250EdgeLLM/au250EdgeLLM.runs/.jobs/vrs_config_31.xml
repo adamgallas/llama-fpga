@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="top_xdma_0_3_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_xdma_0_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_xbar_8_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_xbar_8_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_axi_smc_3_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_axi_smc_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_DataPath_xN_0_6_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_DataPath_xN_0_6_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_smartconnect_3_2_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_smartconnect_3_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_smartconnect_2_2_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_smartconnect_2_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_smartconnect_1_2_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_smartconnect_1_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_smartconnect_0_2_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_smartconnect_0_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="top_xdma_0_3_synth_1"/>
+		<Parent Id="top_xbar_8_synth_1"/>
+		<Parent Id="top_axi_smc_3_synth_1"/>
+		<Parent Id="top_DataPath_xN_0_6_synth_1"/>
+		<Parent Id="top_smartconnect_3_2_synth_1"/>
+		<Parent Id="top_smartconnect_2_2_synth_1"/>
+		<Parent Id="top_smartconnect_1_2_synth_1"/>
+		<Parent Id="top_smartconnect_0_2_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

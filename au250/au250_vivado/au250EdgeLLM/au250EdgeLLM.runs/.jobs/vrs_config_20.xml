@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="fp16toFp32_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/fp16toFp32_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp16toFp32s_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/fp16toFp32s_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp32acc22_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/fp32acc22_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp32add11_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/fp32add11_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp32div28_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/fp32div28_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp32exp20_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/fp32exp20_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp32mul8s_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/fp32mul8s_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp32rsqrt32_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/fp32rsqrt32_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp32toFp16_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/fp32toFp16_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

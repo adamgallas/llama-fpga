@@ -1,0 +1,65 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.5046",
+   "Default View_TopLeft":"-511,-10",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port S00_AXI -pg 1 -lvl 0 -x -10 -y 480 -defaultsOSRD
+preplace port M00_AXI -pg 1 -lvl 4 -x 830 -y 260 -defaultsOSRD
+preplace port M01_AXI -pg 1 -lvl 4 -x 830 -y 90 -defaultsOSRD
+preplace port M02_AXI -pg 1 -lvl 4 -x 830 -y 430 -defaultsOSRD
+preplace port M03_AXI -pg 1 -lvl 4 -x 830 -y 600 -defaultsOSRD
+preplace port M04_AXI -pg 1 -lvl 4 -x 830 -y 770 -defaultsOSRD
+preplace port port-id_ACLK -pg 1 -lvl 0 -x -10 -y 500 -defaultsOSRD
+preplace port port-id_ARESETN -pg 1 -lvl 0 -x -10 -y 520 -defaultsOSRD
+preplace port port-id_S00_ACLK -pg 1 -lvl 0 -x -10 -y 540 -defaultsOSRD
+preplace port port-id_S00_ARESETN -pg 1 -lvl 0 -x -10 -y 560 -defaultsOSRD
+preplace port port-id_M00_ACLK -pg 1 -lvl 0 -x -10 -y 240 -defaultsOSRD
+preplace port port-id_M00_ARESETN -pg 1 -lvl 0 -x -10 -y 260 -defaultsOSRD
+preplace port port-id_M01_ACLK -pg 1 -lvl 0 -x -10 -y 70 -defaultsOSRD
+preplace port port-id_M01_ARESETN -pg 1 -lvl 0 -x -10 -y 90 -defaultsOSRD
+preplace port port-id_M02_ACLK -pg 1 -lvl 0 -x -10 -y 350 -defaultsOSRD
+preplace port port-id_M02_ARESETN -pg 1 -lvl 0 -x -10 -y 370 -defaultsOSRD
+preplace port port-id_M03_ACLK -pg 1 -lvl 0 -x -10 -y 390 -defaultsOSRD
+preplace port port-id_M03_ARESETN -pg 1 -lvl 0 -x -10 -y 410 -defaultsOSRD
+preplace port port-id_M04_ACLK -pg 1 -lvl 0 -x -10 -y 750 -defaultsOSRD
+preplace port port-id_M04_ARESETN -pg 1 -lvl 0 -x -10 -y 770 -defaultsOSRD
+preplace inst xbar -pg 1 -lvl 2 -x 370 -y 540 -defaultsOSRD
+preplace inst s00_couplers -pg 1 -lvl 1 -x 120 -y 520 -defaultsOSRD
+preplace inst m00_couplers -pg 1 -lvl 3 -x 700 -y 260 -defaultsOSRD
+preplace inst m01_couplers -pg 1 -lvl 3 -x 700 -y 90 -defaultsOSRD
+preplace inst m02_couplers -pg 1 -lvl 3 -x 700 -y 430 -defaultsOSRD
+preplace inst m03_couplers -pg 1 -lvl 3 -x 700 -y 600 -defaultsOSRD
+preplace inst m04_couplers -pg 1 -lvl 3 -x 700 -y 770 -defaultsOSRD
+preplace netloc xdma_0_axi_periph_ACLK_net 1 0 3 10 420 230 420 550
+preplace netloc xdma_0_axi_periph_ARESETN_net 1 0 3 10 610 230 780 560
+preplace netloc S00_ACLK_1 1 0 1 NJ 540
+preplace netloc S00_ARESETN_1 1 0 1 NJ 560
+preplace netloc M00_ACLK_1 1 0 3 NJ 240 NJ 240 NJ
+preplace netloc M00_ARESETN_1 1 0 3 NJ 260 NJ 260 NJ
+preplace netloc M01_ACLK_1 1 0 3 NJ 70 NJ 70 NJ
+preplace netloc M01_ARESETN_1 1 0 3 NJ 90 NJ 90 NJ
+preplace netloc M02_ACLK_1 1 0 3 NJ 350 NJ 350 590J
+preplace netloc M02_ARESETN_1 1 0 3 NJ 370 NJ 370 570J
+preplace netloc M03_ACLK_1 1 0 3 NJ 390 NJ 390 540J
+preplace netloc M03_ARESETN_1 1 0 3 NJ 410 NJ 410 520J
+preplace netloc M04_ACLK_1 1 0 3 NJ 750 NJ 750 NJ
+preplace netloc M04_ARESETN_1 1 0 3 NJ 770 NJ 770 NJ
+preplace netloc xdma_0_axi_periph_to_s00_couplers 1 0 1 NJ 480
+preplace netloc s00_couplers_to_xbar 1 1 1 N 520
+preplace netloc m00_couplers_to_xdma_0_axi_periph 1 3 1 NJ 260
+preplace netloc xbar_to_m00_couplers 1 2 1 530 220n
+preplace netloc m01_couplers_to_xdma_0_axi_periph 1 3 1 NJ 90
+preplace netloc xbar_to_m01_couplers 1 2 1 510 50n
+preplace netloc m02_couplers_to_xdma_0_axi_periph 1 3 1 NJ 430
+preplace netloc xbar_to_m02_couplers 1 2 1 580 390n
+preplace netloc m03_couplers_to_xdma_0_axi_periph 1 3 1 NJ 600
+preplace netloc xbar_to_m03_couplers 1 2 1 N 560
+preplace netloc m04_couplers_to_xdma_0_axi_periph 1 3 1 NJ 770
+preplace netloc xbar_to_m04_couplers 1 2 1 510 580n
+levelinfo -pg 1 -10 120 370 700 830
+pagesize -pg 1 -db -bbox -sgen -170 -10 940 860
+"
+}
+

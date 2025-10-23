@@ -1,0 +1,49 @@
+$date
+        2024-Nov-04 09:28:22
+$end
+$version
+        Vivado v2022.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 6 " top_i/DataPath_xN_0/U0/coreArea_0_core/busIn/io_bus_payload_tuser [5:0] $end
+$var reg 16 ( top_i/DataPath_xN_0/U0/coreArea_0_core/ln/output_tdata [15:0] $end
+$var reg 6 8 top_i/DataPath_xN_0/U0/coreArea_0_core/engine/scalarOut_tuser [5:0] $end
+$var reg 1 > top_i/DataPath_xN_0/U0/coreArea_0_core/node/allGatherOut_tvalid $end
+$var reg 1 ? top_i/DataPath_xN_0/U0/coreArea_0_core/node/dotOut_valid $end
+$var reg 1 @ top_i/DataPath_xN_0/U0/coreArea_0_core/ln/inCntOvf $end
+$var reg 1 A top_i/DataPath_xN_0/U0/coreArea_0_core/ln/inputTagMap_valid $end
+$var reg 1 B top_i/DataPath_xN_0/U0/coreArea_0_core/busIn/io_bus_payload_last $end
+$var reg 1 C top_i/DataPath_xN_0/U0/coreArea_0_core/ln/outCntOvf $end
+$var reg 1 D top_i/DataPath_xN_0/U0/coreArea_0_core/ln/output_valid $end
+$var reg 1 E top_i/DataPath_xN_0/U0/coreArea_0_core/node/p2sOut_valid $end
+$var reg 1 F top_i/DataPath_xN_0/U0/coreArea_0_core/engine/scalarOut_tvalid $end
+$var reg 1 G top_i/DataPath_xN_0/U0/coreArea_0_core/busIn/wkvFire $end
+$var reg 1 H _TRIGGER $end
+$var reg 1 I _WINDOW $end
+$var reg 1 J _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 "
+b1000000000000000 (
+b10001 8
+0>
+0?
+1@
+0A
+1B
+0C
+0D
+0E
+0F
+0G
+0H
+1I
+0J
+$end
+#1024
+1H

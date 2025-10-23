@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0"></ZoomStartTime>
+      <ZoomEndTime time="24"></ZoomEndTime>
+      <Cursor1Time time="8,192"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="288"></NameColumnWidth>
+      <ValueColumnWidth column_width="97"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject type="logic" fp_name="top_i/DataPath_xN_0/U0/coreArea_0_core/busIn/io_bus_payload_last">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">top_i/DataPath_xN_0/U0/coreArea_0_core/busIn/io_bus_payload_last</obj_property>
+      <obj_property name="ObjectShortName">io_bus_payload_last</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="top_i/DataPath_xN_0/U0/coreArea_0_core/busIn/io_bus_payload_tuser">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">top_i/DataPath_xN_0/U0/coreArea_0_core/busIn/io_bus_payload_tuser[5:0]</obj_property>
+      <obj_property name="ObjectShortName">io_bus_payload_tuser[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="top_i/DataPath_xN_0/U0/coreArea_0_core/busIn/wkvFire">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">top_i/DataPath_xN_0/U0/coreArea_0_core/busIn/wkvFire</obj_property>
+      <obj_property name="ObjectShortName">wkvFire</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="top_i/DataPath_xN_0/U0/coreArea_0_core/engine/scalarOut_tvalid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">top_i/DataPath_xN_0/U0/coreArea_0_core/engine/scalarOut_tvalid</obj_property>
+      <obj_property name="ObjectShortName">scalarOut_tvalid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="top_i/DataPath_xN_0/U0/coreArea_0_core/ln/inCntOvf">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">top_i/DataPath_xN_0/U0/coreArea_0_core/ln/inCntOvf</obj_property>
+      <obj_property name="ObjectShortName">inCntOvf</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="top_i/DataPath_xN_0/U0/coreArea_0_core/ln/inputTagMap_valid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">top_i/DataPath_xN_0/U0/coreArea_0_core/ln/inputTagMap_valid</obj_property>
+      <obj_property name="ObjectShortName">inputTagMap_valid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="top_i/DataPath_xN_0/U0/coreArea_0_core/ln/outCntOvf">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">top_i/DataPath_xN_0/U0/coreArea_0_core/ln/outCntOvf</obj_property>
+      <obj_property name="ObjectShortName">outCntOvf</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="top_i/DataPath_xN_0/U0/coreArea_0_core/ln/output_tdata">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">top_i/DataPath_xN_0/U0/coreArea_0_core/ln/output_tdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_tdata[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="top_i/DataPath_xN_0/U0/coreArea_0_core/ln/output_valid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">top_i/DataPath_xN_0/U0/coreArea_0_core/ln/output_valid</obj_property>
+      <obj_property name="ObjectShortName">output_valid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="top_i/DataPath_xN_0/U0/coreArea_0_core/node/node/io_from_payload_last">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">top_i/DataPath_xN_0/U0/coreArea_0_core/node/node/io_from_payload_last</obj_property>
+      <obj_property name="ObjectShortName">io_from_payload_last</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="top_i/DataPath_xN_0/U0/coreArea_0_core/node/node/io_from_payload_tdest">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">top_i/DataPath_xN_0/U0/coreArea_0_core/node/node/io_from_payload_tdest[1:0]</obj_property>
+      <obj_property name="ObjectShortName">io_from_payload_tdest[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="top_i/DataPath_xN_0/U0/coreArea_0_core/node/node/io_from_valid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">top_i/DataPath_xN_0/U0/coreArea_0_core/node/node/io_from_valid</obj_property>
+      <obj_property name="ObjectShortName">io_from_valid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="top_i/DataPath_xN_0/U0/coreArea_0_core/node/node/io_input_valid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">top_i/DataPath_xN_0/U0/coreArea_0_core/node/node/io_input_valid</obj_property>
+      <obj_property name="ObjectShortName">io_input_valid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="top_i/DataPath_xN_0/U0/coreArea_0_core/node/node/io_output_valid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">top_i/DataPath_xN_0/U0/coreArea_0_core/node/node/io_output_valid</obj_property>
+      <obj_property name="ObjectShortName">io_output_valid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="top_i/DataPath_xN_0/U0/coreArea_0_core/node/node/io_to_payload_tdest">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">top_i/DataPath_xN_0/U0/coreArea_0_core/node/node/io_to_payload_tdest[1:0]</obj_property>
+      <obj_property name="ObjectShortName">io_to_payload_tdest[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="top_i/DataPath_xN_0/U0/coreArea_0_core/node/node/io_to_valid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">top_i/DataPath_xN_0/U0/coreArea_0_core/node/node/io_to_valid</obj_property>
+      <obj_property name="ObjectShortName">io_to_valid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="top_i/DataPath_xN_0/U0/coreArea_0_core/engine/scalarOut_tuser">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">top_i/DataPath_xN_0/U0/coreArea_0_core/engine/scalarOut_tuser[5:0]</obj_property>
+      <obj_property name="ObjectShortName">scalarOut_tuser[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

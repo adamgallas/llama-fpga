@@ -1,0 +1,89 @@
+$date
+        2024-Nov-04 13:56:06
+$end
+$version
+        Vivado v2022.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 6 " top_i/DataPath_xN_0/U0/coreArea_0_core/busIn/io_bus_payload_tuser [5:0] $end
+$var reg 16 ( top_i/DataPath_xN_0/U0/coreArea_0_core/ln/output_tdata [15:0] $end
+$var reg 6 8 top_i/DataPath_xN_0/U0/coreArea_0_core/engine/scalarOut_tuser [5:0] $end
+$var reg 2 > top_i/DataPath_xN_0/U0/coreArea_0_core/node/node_node_io_output_payload_tdest_regNext [1:0] $end
+$var reg 1 @ top_i/DataPath_xN_0/U0/coreArea_0_core/ln/inCntOvf $end
+$var reg 1 A top_i/DataPath_xN_0/U0/coreArea_0_core/ln/inputTagMap_valid $end
+$var reg 1 B top_i/DataPath_xN_0/U0/coreArea_0_core/busIn/io_bus_payload_last $end
+$var reg 1 C top_i/DataPath_xN_0/U0/coreArea_0_core/node/node_node_io_output_payload_last_regNext $end
+$var reg 1 D top_i/DataPath_xN_0/U0/coreArea_0_core/node/node_node_io_output_valid_regNext $end
+$var reg 1 E top_i/DataPath_xN_0/U0/coreArea_0_core/ln/outCntOvf $end
+$var reg 1 F top_i/DataPath_xN_0/U0/coreArea_0_core/ln/output_valid $end
+$var reg 1 G top_i/DataPath_xN_0/U0/coreArea_0_core/engine/scalarOut_tvalid $end
+$var reg 1 H top_i/DataPath_xN_0/U0/coreArea_0_core/busIn/wkvFire $end
+$var reg 1 I _TRIGGER $end
+$var reg 1 J _WINDOW $end
+$var reg 1 K _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 "
+b0 (
+b10001 8
+b0 >
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+1J
+0K
+$end
+#32
+1H
+1I
+#35
+0H
+#36
+1H
+#38
+0H
+#39
+1H
+#45
+1A
+1D
+0H
+#46
+1H
+#59
+0H
+#62
+1H
+#66
+0H
+#67
+1H
+#70
+b1000000000000000 (
+1B
+#71
+0H
+#1068
+1C
+#1069
+b1 >
+0C
+#2092
+1C
+#2093
+b10 >
+0A
+0C
+0D

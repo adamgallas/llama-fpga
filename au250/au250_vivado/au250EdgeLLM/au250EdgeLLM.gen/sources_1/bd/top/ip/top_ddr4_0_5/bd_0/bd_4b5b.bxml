@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0" MinorVersion="40">
+  <CompositeFile CompositeFileTopName="bd_4b5b" CanBeSetAsTop="true" CanDisplayChildGraph="true">
+    <Description>Composite Fileset</Description>
+    <Generation Name="SYNTHESIS" State="RESET" Timestamp="1740291101"/>
+    <Generation Name="IMPLEMENTATION" State="RESET" Timestamp="1740291101"/>
+    <Generation Name="SIMULATION" State="RESET" Timestamp="1740291101"/>
+    <Generation Name="HW_HANDOFF" State="RESET" Timestamp="1740291101"/>
+    <FileCollection Name="SOURCES" Type="SOURCES"/>
+  </CompositeFile>
+</Root>

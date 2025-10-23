@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/adam/EdgeLLMPrj/kv260_vivado/kv260_vivado.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0"></ZoomStartTime>
+      <ZoomEndTime time="8,193"></ZoomEndTime>
+      <Cursor1Time time="4,923"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="355"></NameColumnWidth>
+      <ValueColumnWidth column_width="164"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject type="logic" fp_name="kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/axi/busFire">
+      <obj_property name="ElementShortName">kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/axi/busFire</obj_property>
+      <obj_property name="ObjectShortName">busFire</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/axi/haltDetected">
+      <obj_property name="ElementShortName">kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/axi/haltDetected</obj_property>
+      <obj_property name="ObjectShortName">haltDetected</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/axi/io_bus_payload_last">
+      <obj_property name="ElementShortName">kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/axi/io_bus_payload_last</obj_property>
+      <obj_property name="ObjectShortName">io_bus_payload_last</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/axi/io_bus_ready">
+      <obj_property name="ElementShortName">kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/axi/io_bus_ready</obj_property>
+      <obj_property name="ObjectShortName">io_bus_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/axi/io_bus_valid">
+      <obj_property name="ElementShortName">kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/axi/io_bus_valid</obj_property>
+      <obj_property name="ObjectShortName">io_bus_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/cmdGen/indexCmdGen_enDenseUD">
+      <obj_property name="ElementShortName">kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/cmdGen/indexCmdGen_enDenseUD</obj_property>
+      <obj_property name="ObjectShortName">indexCmdGen_enDenseUD</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/cmdGen/indexCmdGen_indexCmd_payload_last">
+      <obj_property name="ElementShortName">kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/cmdGen/indexCmdGen_indexCmd_payload_last</obj_property>
+      <obj_property name="ObjectShortName">indexCmdGen_indexCmd_payload_last</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/cmdGen/indexCmdGen_indexCmd_valid">
+      <obj_property name="ElementShortName">kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/cmdGen/indexCmdGen_indexCmd_valid</obj_property>
+      <obj_property name="ObjectShortName">indexCmdGen_indexCmd_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/cmdGen/indexCmdGen_indexFlow_payload_last">
+      <obj_property name="ElementShortName">kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/cmdGen/indexCmdGen_indexFlow_payload_last</obj_property>
+      <obj_property name="ObjectShortName">indexCmdGen_indexFlow_payload_last</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/cmdGen/indexCmdGen_indexFlow_valid">
+      <obj_property name="ElementShortName">kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/cmdGen/indexCmdGen_indexFlow_valid</obj_property>
+      <obj_property name="ObjectShortName">indexCmdGen_indexFlow_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/dmaHp/mm2sVld">
+      <obj_property name="ElementShortName">kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/dmaHp/mm2sVld</obj_property>
+      <obj_property name="ObjectShortName">mm2sVld</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/engine/scalarOut_tvalid">
+      <obj_property name="ElementShortName">kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/engine/scalarOut_tvalid</obj_property>
+      <obj_property name="ObjectShortName">scalarOut_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/stateGen_1/dataAlign_layerCnt">
+      <obj_property name="ElementShortName">kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/stateGen_1/dataAlign_layerCnt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">dataAlign_layerCnt[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/axi/busTag">
+      <obj_property name="ElementShortName">kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/axi/busTag[5:0]</obj_property>
+      <obj_property name="ObjectShortName">busTag[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/engine/scalarOut_tuser">
+      <obj_property name="ElementShortName">kv260bd_i/DataPath_xN_0/U0/coreArea_0_core/engine/scalarOut_tuser[5:0]</obj_property>
+      <obj_property name="ObjectShortName">scalarOut_tuser[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

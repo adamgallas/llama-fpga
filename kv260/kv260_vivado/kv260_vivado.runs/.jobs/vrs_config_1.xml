@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="AxiDatamover128_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/AxiDatamover128_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="AxiDatamover512_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/AxiDatamover512_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp16acc16_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp16acc16_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp16add6_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp16add6_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp16add8_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp16add8_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp16div12_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp16div12_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp16ex12_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp16ex12_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp16int5d4_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp16int5d4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp16int9d4_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp16int9d4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp16lt0_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp16lt0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp16mul6_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp16mul6_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp16mul7s_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp16mul7s_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp16rsqrt4_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp16rsqrt4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp16sub8_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp16sub8_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp16toFp32_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp16toFp32_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp16toFp32s_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp16toFp32s_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp16toint9d4_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp16toint9d4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp32acc22_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp32acc22_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp32add11_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp32add11_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp32div28_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp32div28_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp32exp20_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp32exp20_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp32int16d4_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp32int16d4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp32int16d6_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp32int16d6_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp32lt0_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp32lt0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp32mul8_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp32mul8_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp32mul8s_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp32mul8s_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp32rsqrt32_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp32rsqrt32_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp32sub11_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp32sub11_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp32toFp16_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp32toFp16_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fp32toint32d6_synth_1" LaunchDir="/home/adam/EdgeLLM/kv260_vivado/kv260_vivado.runs/fp32toint32d6_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

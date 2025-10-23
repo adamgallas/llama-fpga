@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="top_auto_cc_8_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_auto_cc_8_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_auto_cc_9_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_auto_cc_9_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="top_auto_cc_8_synth_1"/>
+	</Run>
+	<Run Id="top_smartconnect_1_0_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_smartconnect_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_smartconnect_2_0_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_smartconnect_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_ddr4_2_1_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_ddr4_2_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_resetn_inv_0_1_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_resetn_inv_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_auto_cc_11_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_auto_cc_11_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="top_auto_cc_8_synth_1"/>
+	</Run>
+	<Run Id="top_auto_cc_10_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_auto_cc_10_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="top_auto_cc_8_synth_1"/>
+	</Run>
+	<Run Id="top_auto_cc_14_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_auto_cc_14_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="top_auto_cc_8_synth_1"/>
+	</Run>
+	<Run Id="top_auto_cc_12_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_auto_cc_12_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="top_auto_cc_8_synth_1"/>
+	</Run>
+	<Run Id="top_auto_cc_13_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_auto_cc_13_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="top_auto_cc_8_synth_1"/>
+	</Run>
+	<Run Id="top_ddr4_1_2_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_ddr4_1_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_axi_smc_1_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_axi_smc_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_ddr4_3_1_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_ddr4_3_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_ddr4_0_3_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_ddr4_0_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_smartconnect_0_0_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_smartconnect_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_xbar_6_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_xbar_6_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_DataPath_xN_0_3_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_DataPath_xN_0_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_xdma_0_1_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_xdma_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_auto_cc_7_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_auto_cc_7_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="top_auto_cc_8_synth_1"/>
+	</Run>
+	<Run Id="top_DataPath_xN_3_1_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_DataPath_xN_3_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_DataPath_xN_2_1_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_DataPath_xN_2_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_DataPath_xN_1_1_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_DataPath_xN_1_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_smartconnect_3_0_synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/top_smartconnect_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/adam/EdgeLLM/au250EdgeLLM/au250EdgeLLM.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="top_auto_cc_8_synth_1"/>
+		<Parent Id="top_auto_cc_9_synth_1"/>
+		<Parent Id="top_smartconnect_1_0_synth_1"/>
+		<Parent Id="top_smartconnect_2_0_synth_1"/>
+		<Parent Id="top_ddr4_2_1_synth_1"/>
+		<Parent Id="top_resetn_inv_0_1_synth_1"/>
+		<Parent Id="top_auto_cc_11_synth_1"/>
+		<Parent Id="top_auto_cc_10_synth_1"/>
+		<Parent Id="top_auto_cc_14_synth_1"/>
+		<Parent Id="top_auto_cc_12_synth_1"/>
+		<Parent Id="top_auto_cc_13_synth_1"/>
+		<Parent Id="top_ddr4_1_2_synth_1"/>
+		<Parent Id="top_axi_smc_1_synth_1"/>
+		<Parent Id="top_ddr4_3_1_synth_1"/>
+		<Parent Id="top_ddr4_0_3_synth_1"/>
+		<Parent Id="top_smartconnect_0_0_synth_1"/>
+		<Parent Id="top_xbar_6_synth_1"/>
+		<Parent Id="top_DataPath_xN_0_3_synth_1"/>
+		<Parent Id="top_xdma_0_1_synth_1"/>
+		<Parent Id="top_auto_cc_7_synth_1"/>
+		<Parent Id="top_DataPath_xN_3_1_synth_1"/>
+		<Parent Id="top_DataPath_xN_2_1_synth_1"/>
+		<Parent Id="top_DataPath_xN_1_1_synth_1"/>
+		<Parent Id="top_smartconnect_3_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

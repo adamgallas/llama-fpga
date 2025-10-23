@@ -1,0 +1,39 @@
+$date
+        2025-Feb-19 20:59:35
+$end
+$version
+        Vivado v2022.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 6 " top_i/DataPath_xN_0/U0/coreArea_1_core/axi/int_bus_payload_tuser [5:0] $end
+$var reg 10 ( top_i/DataPath_xN_0/U0/coreArea_1_core/stateGen_4/status_token [9:0] $end
+$var reg 5 2 top_i/DataPath_xN_0/U0/coreArea_1_core/stateGen_4/status_layerCnt [4:0] $end
+$var reg 1 7 top_i/DataPath_xN_0/U0/coreArea_1_core/axi/int_bus_payload_last $end
+$var reg 1 8 top_i/DataPath_xN_0/U0/coreArea_1_core/axi/int_bus_ready $end
+$var reg 1 9 top_i/DataPath_xN_0/U0/coreArea_1_core/axi/int_bus_valid $end
+$var reg 1 : top_i/DataPath_xN_0/U0/coreArea_1_core/busIn/io_wkv_ready $end
+$var reg 1 ; top_i/DataPath_xN_0/U0/coreArea_1_core/busIn/io_wkv_valid $end
+$var reg 1 < _TRIGGER $end
+$var reg 1 = _WINDOW $end
+$var reg 1 > _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1111 "
+b1110 (
+b11111 2
+07
+08
+19
+0:
+1;
+0<
+1=
+0>
+$end
+#500
+1<
