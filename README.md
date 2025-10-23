@@ -126,6 +126,18 @@ Numerous design decisions — such as tensor partitioning, memory access schedul
 | ZCU104 (PS + PL) | ~8–9             |
 | Alveo U250       | ~18–19           |
 
+### Demo on KV260
+
+![KV260 Demo](kv260/kv260demo.gif)
+
+### Demo on ZCU104
+
+![ZCU104 Demo](zcu104_ps_pl/zcu104demo.gif)
+
+### Demo on Alveo U250
+
+![AlveoU250 Demo](au250/alveodemo.gif)
+
 ### **Prefill Phase**
 
 Currently, only the **decode phase** is hardware-accelerated.
