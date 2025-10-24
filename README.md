@@ -179,10 +179,9 @@ If you use this project in your research or product, **please cite** these works
 
 ## Related Project
 
-A closely related project is **[Terafly](https://github.com/zjnyly/TeraFly)**, developed by **Jianing Zheng**. 
-**Terafly** is a **multi-node FPGA-based accelerator** designed for **efficient cooperative LLM inference**. It enables **high-throughput, low-latency execution** of large language models by distributing computation across multiple FPGA nodes, providing a complementary approach to single-board accelerators like llama-fpga.
-We recommend checking out Terafly for researchers interested in **scalable FPGA LLM deployment** and **multi-node cooperative architectures**.
+* **[Terafly](https://github.com/zjnyly/TeraFly)** — developed by **Jianing Zheng**, Terafly is a **multi-node FPGA-based accelerator** for cooperative LLM inference. It enables **high-throughput, low-latency execution** of large language models by distributing computation across multiple FPGA nodes, complementing single-board solutions like llama-fpga.
 
+* **[TeLLMe](https://arxiv.org/abs/2504.16266)** and **[TeLLMe v2](https://arxiv.org/abs/2510.15926)** — these works focus on **KV260 and other embedded FPGAs** for LLM acceleration. They target **both prefill and decode phases**, solving the **prefill speed bottleneck** and achieving efficient end-to-end ternary LLM acceleration.
 
 ## Acknowledgements
 
