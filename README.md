@@ -146,7 +146,7 @@ While **llama-fpga** demonstrates a complete and functional FPGA-based LLM decod
 4. **Prefill Phase Not Accelerated**
 
    Currently, only the **decoding phase** is implemented in hardware.
-   The **prefill stage** is executed token-by-token on the CPU, resulting in slow initialization when the input context is long.
+   The **prefill stage** is executed token-by-token reusing the decode accelerator, resulting in slow initialization when the input context is long.
 
 5. **Context Length Limitation**
 
