@@ -31,7 +31,7 @@ This repository includes **four hardware-specific subprojects**, each correspond
 | --------------- | ---------------- | ---------------------------------------------------------------- |
 | `kv260/`        | KV260            | LLM inference with model weights loaded into PS-side RAM (4 GB). |
 | `zcu104_pl/`    | ZCU104 (PL only) | Model weights fully loaded into PL-side 4 GB DDR4 memory.        |
-| `zcu104_ps_pl/` | ZCU104 (Hybrid)  | Model weights split between PS and PL memories (each 4 GB).      |
+| `zcu104_ps_pl/` | ZCU104 (Hybrid)  | Model weights split between PS and PL memories (each 2 GB).      |
 | `alveo_u250/`   | Alveo U250       | Uses all four DDR4 memory channels for maximum performance.      |
 
 ---
