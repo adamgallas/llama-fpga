@@ -81,6 +81,13 @@ int main()
 {
     init_platform();
 
+    /*
+     * Use the standard CRLF sequence so the startup message is displayed
+     * correctly by serial terminals on every host platform.
+     */
+    print("Hello World\r\n");
+    print("Successfully ran Hello World application\r\n");
+
 	Xil_Out32(EDGELLM_BASE_ADDR+0x0c, 77);
 	u32 ret = Xil_In32(EDGELLM_BASE_ADDR+0x0c);
 	printf("%d\n", ret);
@@ -161,8 +168,28 @@ int main()
 		printf("%d\n", ret);
 		printf("Turn: %d, User Prompt:\n", t);
 
-		fgets(prompt, MAX_PROMPT_LEN, stdin);
-		prompt[strlen(prompt) - 1]='\0';
+		/*
+		 * Read directly from the UART instead of using fgets(). Serial
+		 * terminals may send CR, LF, or CRLF when Enter is pressed; treating
+		 * either character as a terminator prevents the prompt from blocking.
+		 * An empty terminator is skipped, which also consumes the LF left by
+		 * a CRLF sequence before the next prompt starts.
+		 */
+		size_t prompt_len = 0;
+		char serial_char;
+		while(1){
+			serial_char = inbyte();
+			if(serial_char == '\r' || serial_char == '\n'){
+				if(prompt_len == 0){
+					continue;
+				}
+				break;
+			}
+			if(prompt_len < MAX_PROMPT_LEN - 1){
+				prompt[prompt_len++] = serial_char;
+			}
+		}
+		prompt[prompt_len] = '\0';
 		printf("%s\n", prompt);
 		sprintf(rendered_prompt, "[INST] %s [/INST]", prompt);
 
@@ -184,6 +211,12 @@ int main()
 
 		currTk = 0;
 		prev_token = 0;
+		/*
+		 * Abort a failed generation after 20 consecutive <unk> tokens.
+		 * This keeps the application responsive and allows the next
+		 * conversation turn to start instead of decoding until the limit.
+		 */
+		int consecutive_unk = 0;
 		for(int i=0;i<MAX_DECODE_LEN;i++){
 			while(((currTk>>31) & 0x01) != 1){
 				currTk = Xil_In32(EDGELLM_BASE_ADDR+0x04);
@@ -195,6 +228,14 @@ int main()
 			currTk = 0;
 			char *piece = decode(&tokenizer, prev_token, decodeTk);
 			safe_printf(piece);
+			if(decodeTk == 0){
+				consecutive_unk++;
+			}else{
+				consecutive_unk = 0;
+			}
+			if(consecutive_unk == 20){
+				break;
+			}
 			if(decodeTk == 2){
 				break;
 			}

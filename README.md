@@ -87,7 +87,7 @@ BaiduPan
 
 [tkz.bin](https://pan.baidu.com/s/12k4x0m6EWh23ADSH_fFnmA?pwd=xbtj)
 
-[KV260, PS RAM only (currently buggy)](https://pan.baidu.com/s/1EGnB-p37UCJSXJ1Ts4t3dw?pwd=iar3)
+<!-- [KV260, PS RAM only (currently buggy)](https://pan.baidu.com/s/1EGnB-p37UCJSXJ1Ts4t3dw?pwd=iar3) -->
 
 [ZCU104, PL RAM only](https://pan.baidu.com/s/1OpPXQReN35YIsgkfr95Jpg?pwd=i2uc)
 
@@ -101,7 +101,10 @@ GoogleDrive
 
 [tkz.bin](https://drive.google.com/file/d/13M-1aShAJKDaGGEpRKctNyE5LDMLDeG6/view?usp=sharing)
 
-[KV260, PS RAM only (currently buggy)](https://drive.google.com/drive/folders/12hsunJvtLHCOnNOYfKJd9-nf2N3aIb8Z?usp=sharing)
+<!-- [KV260, PS RAM only (currently buggy)](https://drive.google.com/drive/folders/12hsunJvtLHCOnNOYfKJd9-nf2N3aIb8Z?usp=sharing) -->
+
+[KV260, PS RAM only](https://drive.google.com/file/d/1M2JrxRiQQ4yvrBOiBkHAMSbA-Hayufoh/view?usp=sharing)
+
 
 [Alveo U250, Dual channel DDR4](https://drive.google.com/drive/folders/18J-SO3gsj2KjDvtgqEmPmcemfs43g6te?usp=sharing)
 
